@@ -1,0 +1,36 @@
+#include <iostream>
+#include<string> // Important to Include
+using namespace std;
+
+enum enOddEven {Odd = 0, Even = 1};
+
+enOddEven CheckNumberType(int Number)
+{
+    if (Number % 2 == 0)
+        return Even;
+    else
+        return Odd;
+}
+
+int ReaNumber()
+{
+    int Number;
+    cout << "Please Enter A Number ? ";
+    cin >> Number;
+    return Number;
+}
+
+void PrintNumberType(enOddEven Result)
+{
+    if (Result == Odd)
+        cout << "The Number You Entered Is Odd" << endl;
+    else
+        cout << "The Number You Entered Is Even" << endl;
+}
+
+int main()
+{
+    PrintNumberType(CheckNumberType(ReaNumber()));
+    return 0;
+}
+
