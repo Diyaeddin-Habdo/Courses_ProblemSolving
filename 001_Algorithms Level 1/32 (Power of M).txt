@@ -1,0 +1,37 @@
+#include <iostream>
+#include<string> // Important to Include
+using namespace std;
+
+int ReadNumber()
+{
+    int Number;
+    cout << "Enter the number ? ";
+    cin >> Number;
+    return Number;
+}
+int ReadPower()
+{
+    int Number;
+    cout << "Enter the power ? ";
+    cin >> Number;
+    return Number;
+}
+
+int PowerOfM(int M,int Number)
+{
+    if (M == 0)
+        return 1;
+
+    int P = 1;
+    for (int i = 1;i <= M;i++)
+        P = P * Number;
+
+    return P;
+}
+
+int main()
+{
+    cout << PowerOfM(ReadPower(), ReadNumber()) << endl;
+    system("pause > 0");
+    return 0;
+}
