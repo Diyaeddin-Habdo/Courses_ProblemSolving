@@ -1,0 +1,43 @@
+#include <iostream>
+#include<string> 
+using namespace std;
+
+enum enPrimeNotPrime {Prime = 1, NotPrime = 2};
+
+int ReadPozsitiveNumber(string Message)
+{
+    int Number;
+    do
+    {
+        cout << Message << endl;
+        cin >> Number;
+    } while (Number < 0);
+    return Number;
+}
+
+enPrimeNotPrime ChceckPrime(int Number)
+{
+    int M = round(Number / 2);
+    for (int i = 2;i <= M / 2;i++)
+        if (Number % i == 0)
+            return enPrimeNotPrime::NotPrime;
+
+    return enPrimeNotPrime::Prime;
+}
+
+void PrintNumberType(int Number)
+{
+    // We can use switch also
+    if (ChceckPrime(Number) == enPrimeNotPrime::Prime)
+        cout << "\nPrime" << endl;
+    else
+        cout << "\nNot Prime" << endl;
+}
+
+int main()
+{
+    PrintNumberType(ReadPozsitiveNumber("Enter a positive number :"));
+
+    system("pause > 0");
+    return 0;
+}

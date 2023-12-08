@@ -1,0 +1,37 @@
+#include <iostream>
+#include<string> 
+using namespace std;
+
+enum enOperationType {Add = '+',Subtract = '-', Multiply = '*',Divide = '/' };
+
+float ReadNumber(string Message)
+{
+    float Number = 0;
+    cout << Message << endl;
+    cin >> Number;
+    return Number;
+}
+
+float SumNumbers()
+{
+    float Number = 0;
+    float Sum = 0;
+    int Counter = 1;
+    do
+    {
+        Number = ReadNumber("Enter number " + to_string(Counter));
+        if (Number == -99)
+            break;
+        Sum += Number;
+        Counter++;
+    } while (Number != -99);
+    return Sum;
+}
+
+int main()
+{
+    cout << "Result = " << SumNumbers() << endl;
+
+    system("pause > 0");
+    return 0;
+}
