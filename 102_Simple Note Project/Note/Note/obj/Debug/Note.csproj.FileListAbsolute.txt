@@ -1,0 +1,21 @@
+C:\Users\Diya\source\repos\Note\Note\bin\Debug\Note.exe.config
+C:\Users\Diya\source\repos\Note\Note\bin\Debug\Note.exe
+C:\Users\Diya\source\repos\Note\Note\bin\Debug\Note.pdb
+C:\Users\Diya\source\repos\Note\Note\obj\Debug\Note.csproj.AssemblyReference.cache
+C:\Users\Diya\source\repos\Note\Note\obj\Debug\Note.csproj.SuggestedBindingRedirects.cache
+C:\Users\Diya\source\repos\Note\Note\obj\Debug\Note.Form1.resources
+C:\Users\Diya\source\repos\Note\Note\obj\Debug\Note.Properties.Resources.resources
+C:\Users\Diya\source\repos\Note\Note\obj\Debug\Note.csproj.GenerateResource.cache
+C:\Users\Diya\source\repos\Note\Note\obj\Debug\Note.csproj.CoreCompileInputs.cache
+C:\Users\Diya\source\repos\Note\Note\obj\Debug\Note.exe
+C:\Users\Diya\source\repos\Note\Note\obj\Debug\Note.pdb
+D:\Basit Winforms Projeler\Note\Note\Note\bin\Debug\Note.exe.config
+D:\Basit Winforms Projeler\Note\Note\Note\bin\Debug\Note.exe
+D:\Basit Winforms Projeler\Note\Note\Note\bin\Debug\Note.pdb
+D:\Basit Winforms Projeler\Note\Note\Note\obj\Debug\Note.csproj.AssemblyReference.cache
+D:\Basit Winforms Projeler\Note\Note\Note\obj\Debug\Note.Form1.resources
+D:\Basit Winforms Projeler\Note\Note\Note\obj\Debug\Note.Properties.Resources.resources
+D:\Basit Winforms Projeler\Note\Note\Note\obj\Debug\Note.csproj.GenerateResource.cache
+D:\Basit Winforms Projeler\Note\Note\Note\obj\Debug\Note.csproj.CoreCompileInputs.cache
+D:\Basit Winforms Projeler\Note\Note\Note\obj\Debug\Note.exe
+D:\Basit Winforms Projeler\Note\Note\Note\obj\Debug\Note.pdb
